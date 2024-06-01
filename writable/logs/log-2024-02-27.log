@@ -1,0 +1,296 @@
+INFO - 2024-02-27 00:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 00:38:19 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 00:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 00:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 00:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 00:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 00:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 01:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 01:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 13:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 13:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 13:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 13:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 13:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 13:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 13:08:20 --> ErrorException: Undefined variable: avgRating
+in APPPATH\Views\daftarBuku.php on line 192.
+ 1 APPPATH\Views\daftarBuku.php(192): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: avgRating', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php', 192, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarBuku', [], true)
+ 5 APPPATH\Controllers\Home.php(60): view('daftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 13:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 13:08:47 --> ErrorException: Undefined variable: avgRating
+in APPPATH\Views\daftarBuku.php on line 192.
+ 1 APPPATH\Views\daftarBuku.php(192): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: avgRating', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php', 192, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarBuku', [], true)
+ 5 APPPATH\Controllers\Home.php(60): view('daftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 13:09:50 --> ErrorException: Undefined variable: avgRating
+in APPPATH\Views\daftarBuku.php on line 193.
+ 1 APPPATH\Views\daftarBuku.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: avgRating', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php', 193, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarBuku', [], true)
+ 5 APPPATH\Controllers\Home.php(60): view('daftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 13:13:11 --> ErrorException: Undefined variable: BukuID
+in APPPATH\Controllers\Home.php on line 51.
+ 1 APPPATH\Controllers\Home.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: BukuID', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Home.php', 51, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 13:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 13:15:20 --> ErrorException: Undefined variable: avgRating
+in APPPATH\Views\daftarBuku.php on line 193.
+ 1 APPPATH\Views\daftarBuku.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: avgRating', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php', 193, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarBuku', [], true)
+ 5 APPPATH\Controllers\Home.php(62): view('daftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 13:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 13:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 13:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 13:31:05 --> ErrorException: Illegal string offset 'TanggalUlasan'
+in APPPATH\Views\daftarBuku.php on line 118.
+ 1 APPPATH\Views\daftarBuku.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'TanggalUlasan\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php', 118, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarBuku', [], true)
+ 5 APPPATH\Controllers\Home.php(62): view('daftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 13:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 13:31:56 --> ErrorException: Illegal string offset 'TanggalUlasan'
+in APPPATH\Views\daftarBuku.php on line 118.
+ 1 APPPATH\Views\daftarBuku.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'TanggalUlasan\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php', 118, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarBuku', [], true)
+ 5 APPPATH\Controllers\Home.php(62): view('daftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 13:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 13:32:46 --> ErrorException: Illegal string offset 'TanggalUlasan'
+in APPPATH\Views\daftarBuku.php on line 118.
+ 1 APPPATH\Views\daftarBuku.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'TanggalUlasan\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php', 118, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarBuku', [], true)
+ 5 APPPATH\Controllers\Home.php(62): view('daftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 13:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 13:34:17 --> ErrorException: Illegal string offset 'Username'
+in APPPATH\Views\daftarBuku.php on line 123.
+ 1 APPPATH\Views\daftarBuku.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'Username\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php', 123, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarBuku', [], true)
+ 5 APPPATH\Controllers\Home.php(62): view('daftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-27 13:38:06 --> mysqli_sql_exception: Unknown column 'user.id_member' in 'on clause' in D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `ulasanb...', 0)
+#1 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ulasanb...')
+#2 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ulasanb...')
+#3 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `ulasanb...', Array, false)
+#4 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\app\Models\ModelUlasan.php(30): CodeIgniter\Model->__call('get', Array)
+#6 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\app\Controllers\Home.php(52): App\Models\ModelUlasan->ulasanByBuku(NULL)
+#7 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+#8 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-02-27 13:38:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user.id_member' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `ulasanbuku`.*, `user`.*, `buku`.*
+FROM `ulasanbuku`
+JOIN `user` ON `user`.`id_member` = `ulasanbuku`.`id_member`
+JOIN `buku` ON `buku`.`BukuID` = `ulasanbuku`.`BukuID`
+WHERE `ulasanbuku`.`BukuID` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\ModelUlasan.php(30): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\Home.php(52): App\Models\ModelUlasan->ulasanByBuku(null)
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 13:38:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user.id_member' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ulasanbuku`.*, `user`.*, `buku`.*
+FROM `ulasanbuku`
+JOIN `user` ON `user`.`id_member` = `ulasanbuku`.`id_member`
+JOIN `buku` ON `buku`.`BukuID` = `ulasanbuku`.`BukuID`
+WHERE `ulasanbuku`.`BukuID` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ulasanbuku`.*, `user`.*, `buku`.*
+FROM `ulasanbuku`
+JOIN `user` ON `user`.`id_member` = `ulasanbuku`.`id_member`
+JOIN `buku` ON `buku`.`BukuID` = `ulasanbuku`.`BukuID`
+WHERE `ulasanbuku`.`BukuID` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `ulasanbuku`.*, `user`.*, `buku`.*
+FROM `ulasanbuku`
+JOIN `user` ON `user`.`id_member` = `ulasanbuku`.`id_member`
+JOIN `buku` ON `buku`.`BukuID` = `ulasanbuku`.`BukuID`
+WHERE `ulasanbuku`.`BukuID` IS NULL', [], false)
+ 4 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Models\ModelUlasan.php(30): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Controllers\Home.php(52): App\Models\ModelUlasan->ulasanByBuku(null)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 13:38:07 --> [Caused by] mysqli_sql_exception: Unknown column 'user.id_member' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `ulasanbuku`.*, `user`.*, `buku`.*
+FROM `ulasanbuku`
+JOIN `user` ON `user`.`id_member` = `ulasanbuku`.`id_member`
+JOIN `buku` ON `buku`.`BukuID` = `ulasanbuku`.`BukuID`
+WHERE `ulasanbuku`.`BukuID` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ulasanbuku`.*, `user`.*, `buku`.*
+FROM `ulasanbuku`
+JOIN `user` ON `user`.`id_member` = `ulasanbuku`.`id_member`
+JOIN `buku` ON `buku`.`BukuID` = `ulasanbuku`.`BukuID`
+WHERE `ulasanbuku`.`BukuID` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ulasanbuku`.*, `user`.*, `buku`.*
+FROM `ulasanbuku`
+JOIN `user` ON `user`.`id_member` = `ulasanbuku`.`id_member`
+JOIN `buku` ON `buku`.`BukuID` = `ulasanbuku`.`BukuID`
+WHERE `ulasanbuku`.`BukuID` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `ulasanbuku`.*, `user`.*, `buku`.*
+FROM `ulasanbuku`
+JOIN `user` ON `user`.`id_member` = `ulasanbuku`.`id_member`
+JOIN `buku` ON `buku`.`BukuID` = `ulasanbuku`.`BukuID`
+WHERE `ulasanbuku`.`BukuID` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\ModelUlasan.php(30): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Home.php(52): App\Models\ModelUlasan->ulasanByBuku(null)
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 13:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 13:38:33 --> ErrorException: Undefined index: Rating
+in APPPATH\Views\daftarBuku.php on line 157.
+ 1 APPPATH\Views\daftarBuku.php(157): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Rating', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php', 157, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarBuku', [], true)
+ 5 APPPATH\Controllers\Home.php(63): view('daftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 13:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 13:41:04 --> ErrorException: Undefined variable: modelUlasan
+in APPPATH\Views\daftarBuku.php on line 157.
+ 1 APPPATH\Views\daftarBuku.php(157): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: modelUlasan', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php', 157, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarBuku', [], true)
+ 5 APPPATH\Controllers\Home.php(63): view('daftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 13:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 13:44:02 --> ErrorException: Undefined index: UserID
+in APPPATH\Views\daftarBuku.php on line 186.
+ 1 APPPATH\Views\daftarBuku.php(186): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: UserID', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php', 186, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarBuku', [], true)
+ 5 APPPATH\Controllers\Home.php(63): view('daftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 13:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 13:44:50 --> ErrorException: Undefined index: Rating
+in APPPATH\Views\daftarBuku.php on line 157.
+ 1 APPPATH\Views\daftarBuku.php(157): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Rating', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php', 157, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarBuku', [], true)
+ 5 APPPATH\Controllers\Home.php(63): view('daftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 13:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 13:45:35 --> ErrorException: Undefined index: UserID
+in APPPATH\Views\daftarBuku.php on line 157.
+ 1 APPPATH\Views\daftarBuku.php(157): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: UserID', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php', 157, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarBuku', [], true)
+ 5 APPPATH\Controllers\Home.php(63): view('daftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 13:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 13:49:09 --> ErrorException: Undefined index: UserID
+in APPPATH\Views\daftarBuku.php on line 184.
+ 1 APPPATH\Views\daftarBuku.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: UserID', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php', 184, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarBuku', [], true)
+ 5 APPPATH\Controllers\Home.php(63): view('daftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 13:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 13:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 13:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 13:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 13:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 13:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 13:57:23 --> ErrorException: Undefined index: BukuID
+in APPPATH\Views\daftarBuku.php on line 114.
+ 1 APPPATH\Views\daftarBuku.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: BukuID', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php', 114, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarBuku', [], true)
+ 5 APPPATH\Controllers\Home.php(63): view('daftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 14:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 14:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

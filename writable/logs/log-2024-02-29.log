@@ -1,0 +1,1164 @@
+INFO - 2024-02-29 02:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 02:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 02:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 02:50:03 --> ParseError: syntax error, unexpected ';'
+in APPPATH\Controllers\Auth\ProsesLogin.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Auth\\prosesLogin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Auth\\prosesLogin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Auth\\prosesLogin')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Auth\\prosesLogin')
+ 5 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Auth\\prosesLogin', true)
+ 6 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 02:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 02:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 02:51:58 --> ErrorException: Undefined property: stdClass::$Password
+in APPPATH\Controllers\Auth\ProsesLogin.php on line 31.
+ 1 APPPATH\Controllers\Auth\ProsesLogin.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$Password', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Auth\\ProsesLogin.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth\ProsesLogin->proses_login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\ProsesLogin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 02:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 02:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 02:53:46 --> ErrorException: Undefined property: stdClass::$Password
+in APPPATH\Controllers\Auth\ProsesLogin.php on line 31.
+ 1 APPPATH\Controllers\Auth\ProsesLogin.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$Password', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Auth\\ProsesLogin.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth\ProsesLogin->proses_login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\ProsesLogin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 02:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 02:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 02:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 02:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 02:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 02:56:09 --> ErrorException: Undefined property: stdClass::$Password
+in APPPATH\Controllers\Auth\ProsesLogin.php on line 31.
+ 1 APPPATH\Controllers\Auth\ProsesLogin.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$Password', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Auth\\ProsesLogin.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth\ProsesLogin->proses_login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\ProsesLogin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 02:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 02:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 02:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 02:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 02:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 02:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 04:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 04:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 04:05:10 --> ErrorException: Undefined variable: ModelPetugas
+in APPPATH\Controllers\PdfController.php on line 28.
+ 1 APPPATH\Controllers\PdfController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: ModelPetugas', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\PdfController.php', 28, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PdfController->generate()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 04:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 04:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 04:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 04:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 04:14:52 --> ErrorException: Undefined variable: petugas
+in APPPATH\Views\petugas\view_pdf.php on line 140.
+ 1 APPPATH\Views\petugas\view_pdf.php(140): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: petugas', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\view_pdf.php', 140, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\view_pdf.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/view_pdf', [], true)
+ 5 APPPATH\Controllers\PdfController.php(65): view('petugas/view_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PdfController->petugas()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 04:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 08:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 08:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 08:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 08:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 08:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 08:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 08:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 08:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 08:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 08:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 08:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 08:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 08:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 11:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 11:37:05 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 11:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 11:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 11:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 11:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 11:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 11:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 11:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 11:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 11:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 11:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 11:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 11:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 11:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 12:01:09 --> ErrorException: base64_encode() expects exactly 1 parameter, 0 given
+in APPPATH\Views\petugas\view_pdf.php on line 53.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'base64_encode() expects exactly 1 parameter, 0 given', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\view_pdf.php', 53, [...])
+ 2 APPPATH\Views\petugas\view_pdf.php(53): base64_encode()
+ 3 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\view_pdf.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/view_pdf', [], true)
+ 6 APPPATH\Controllers\PdfController.php(65): view('petugas/view_pdf', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PdfController->petugas()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 12:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 12:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 13:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 13:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 13:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 13:03:45 --> ParseError: syntax error, unexpected 'PeminjamanID' (T_STRING), expecting ')'
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 154.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 3 APPPATH\Controllers\Petugas.php(69): view('petugas/tabelPeminjaman', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 13:04:08 --> ParseError: syntax error, unexpected '?'
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 154.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 3 APPPATH\Controllers\Petugas.php(69): view('petugas/tabelPeminjaman', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 13:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 13:05:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "print/printPengembalian.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('print/printPengembalian.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('print/printPengembalian', [], true)
+ 3 APPPATH\Controllers\Petugas.php(293): view('print/printPengembalian', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->printPengembalian('1')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 13:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 13:06:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "print/printPengembalian.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('print/printPengembalian.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('print/printPengembalian', [], true)
+ 3 APPPATH\Controllers\Petugas.php(293): view('print/printPengembalian', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->printPengembalian('1')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 13:09:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "print/printPengembalian.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('print/printPengembalian.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('print/printPengembalian', [], true)
+ 3 APPPATH\Controllers\Petugas.php(293): view('print/printPengembalian', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->printPengembalian('1')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 13:12:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "print/printPengembalian.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('print/printPengembalian.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('print/printPengembalian', [], true)
+ 3 APPPATH\Controllers\Petugas.php(293): view('print/printPengembalian', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->printPengembalian('1')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 13:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 13:13:07 --> ParseError: syntax error, unexpected '">Print</a>' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 180.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 3 APPPATH\Controllers\Petugas.php(69): view('petugas/tabelPeminjaman', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 13:13:45 --> ParseError: syntax error, unexpected '">Print</a>' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 180.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 3 APPPATH\Controllers\Petugas.php(69): view('petugas/tabelPeminjaman', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 13:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 13:14:37 --> ErrorException: Undefined property: App\Controllers\Petugas::$ModelBuku
+in APPPATH\Controllers\Petugas.php on line 324.
+ 1 APPPATH\Controllers\Petugas.php(324): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Petugas::$ModelBuku', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Petugas.php', 324, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->strukPengembalian()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 13:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 13:23:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "print/printPengembalian.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('print/printPengembalian.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('print/printPengembalian', [], true)
+ 3 APPPATH\Controllers\Petugas.php(293): view('print/printPengembalian', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->printPengembalian('1')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 13:26:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "print/printPengembalian.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('print/printPengembalian.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('print/printPengembalian', [], true)
+ 3 APPPATH\Controllers\Petugas.php(293): view('print/printPengembalian', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->printPengembalian('1')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 13:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 13:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 13:27:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "print/printPengembalian.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('print/printPengembalian.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('print/printPengembalian', [], true)
+ 3 APPPATH\Controllers\Petugas.php(293): view('print/printPengembalian', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->printPengembalian('1')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 13:31:26 --> ErrorException: Undefined property: App\Controllers\Petugas::$ModelBuku
+in APPPATH\Controllers\Petugas.php on line 315.
+ 1 APPPATH\Controllers\Petugas.php(315): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Petugas::$ModelBuku', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Petugas.php', 315, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->strukPengembalian('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 13:32:35 --> ErrorException: Undefined property: App\Controllers\Petugas::$ModelBuku
+in APPPATH\Controllers\Petugas.php on line 315.
+ 1 APPPATH\Controllers\Petugas.php(315): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Petugas::$ModelBuku', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Petugas.php', 315, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->strukPengembalian('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 13:33:38 --> ErrorException: Trying to get property 'judul' of non-object
+in APPPATH\Controllers\Petugas.php on line 327.
+ 1 APPPATH\Controllers\Petugas.php(327): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul\' of non-object', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Petugas.php', 327, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->strukPengembalian('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 13:33:55 --> ErrorException: Trying to get property 'Judul' of non-object
+in APPPATH\Controllers\Petugas.php on line 327.
+ 1 APPPATH\Controllers\Petugas.php(327): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'Judul\' of non-object', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Petugas.php', 327, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->strukPengembalian('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 13:35:16 --> ErrorException: Trying to get property 'Judul' of non-object
+in APPPATH\Controllers\Petugas.php on line 327.
+ 1 APPPATH\Controllers\Petugas.php(327): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'Judul\' of non-object', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Petugas.php', 327, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->strukPengembalian('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 13:35:21 --> ErrorException: Trying to get property 'Judul' of non-object
+in APPPATH\Controllers\Petugas.php on line 327.
+ 1 APPPATH\Controllers\Petugas.php(327): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'Judul\' of non-object', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Petugas.php', 327, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->strukPengembalian('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 13:37:03 --> Error: Call to undefined function App\Controllers\dapatkan_user()
+in APPPATH\Controllers\Petugas.php on line 327.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->strukPengembalian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 13:37:42 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Petugas.php on line 327.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->strukPengembalian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 13:54:37 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Petugas.php on line 327.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->strukPengembalian('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 14:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 14:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 14:17:18 --> ErrorException: Undefined index: TanggalPengembalian
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 157.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(157): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: TanggalPengembalian', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 157, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(69): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 14:17:18 --> ErrorException: Undefined index: TanggalPengembalian
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 157.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(157): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: TanggalPengembalian', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 157, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(69): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 14:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 14:17:21 --> ErrorException: Undefined index: TanggalPengembalian
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 157.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(157): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: TanggalPengembalian', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 157, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(69): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 14:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 14:17:23 --> ErrorException: Undefined variable: pengembalian
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 154.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(154): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pengembalian', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 154, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(107): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->pengembalian('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 14:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 14:19:24 --> ErrorException: Undefined index: Judul
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 157.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(157): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Judul', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 157, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(69): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 14:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 14:20:24 --> ErrorException: Undefined index: hariKeterlambatan
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 162.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(162): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: hariKeterlambatan', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 162, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(69): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 14:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 14:23:10 --> ErrorException: Undefined index: CoverBuku
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 144.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: CoverBuku', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 144, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(69): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 14:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 14:23:59 --> ErrorException: Undefined index: hariKeterlambatan
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 162.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(162): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: hariKeterlambatan', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 162, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(69): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 14:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 14:25:14 --> ErrorException: Undefined index: CoverBuku
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 144.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: CoverBuku', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 144, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(69): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 14:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 14:27:16 --> ErrorException: Undefined index: CoverBuku
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 144.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: CoverBuku', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 144, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(69): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 15:25:36 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 311.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 3 APPPATH\Controllers\Petugas.php(69): view('petugas/tabelPeminjaman', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 15:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 15:28:48 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 311.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 3 APPPATH\Controllers\Petugas.php(69): view('petugas/tabelPeminjaman', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 15:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 15:29:49 --> ErrorException: Undefined index: CoverBuku
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 144.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: CoverBuku', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 144, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(69): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 15:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 15:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 15:36:20 --> ErrorException: Undefined index: Judul
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 100.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Judul', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 100, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(70): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 15:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 15:37:56 --> ErrorException: Undefined index: Judul
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 100.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Judul', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 100, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(70): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 15:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 15:41:40 --> ErrorException: Undefined index: Judul
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 101.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Judul', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 101, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(73): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 15:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 15:43:36 --> ErrorException: Undefined index: Judul
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 101.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Judul', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 101, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(70): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 15:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 15:44:18 --> ErrorException: Undefined index: Judul
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 101.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Judul', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 101, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(70): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 15:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 15:46:20 --> ErrorException: Undefined variable: modelBuku
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 101.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: modelBuku', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 101, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(70): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 15:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 15:49:41 --> ErrorException: Undefined index: Judul
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 101.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Judul', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 101, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(70): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 15:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 15:50:11 --> ErrorException: Undefined variable: modelPeminjaman
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 101.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: modelPeminjaman', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 101, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(70): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 15:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 15:50:53 --> ErrorException: Undefined index: Judul
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 101.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Judul', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 101, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(70): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 15:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 15:52:09 --> ErrorException: Undefined index: Email
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 117.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Email', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 117, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(70): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 15:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 15:53:11 --> ErrorException: Undefined index: Judul
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 101.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Judul', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 101, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(70): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 15:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 15:53:41 --> ErrorException: Undefined index: NamaLengkap
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 117.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: NamaLengkap', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 117, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(70): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 15:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 15:54:34 --> ErrorException: Undefined index: Judul
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 101.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Judul', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 101, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(70): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 15:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 15:55:10 --> ErrorException: Undefined index: Judul
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 101.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Judul', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 101, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(70): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 15:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 15:55:42 --> ErrorException: Undefined index: Judul
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 101.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Judul', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 101, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(70): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 15:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 15:58:33 --> ErrorException: Undefined index: Judul
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 98.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Judul', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 98, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(70): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 16:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 16:00:04 --> ErrorException: Undefined index: hariKeterlambatan
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 102.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: hariKeterlambatan', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 102, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(69): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 16:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 16:00:50 --> ErrorException: Undefined variable: modelPengembalian
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 102.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: modelPengembalian', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 102, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(69): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 16:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 16:02:39 --> ErrorException: Undefined index: Email
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 120.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Email', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 120, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(69): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 16:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 16:04:05 --> ErrorException: Undefined variable: modelUser
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 120.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: modelUser', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 120, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(69): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 16:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 16:04:59 --> ErrorException: Undefined index: hariKeterlambatan
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 102.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: hariKeterlambatan', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 102, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(69): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 16:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 16:06:06 --> ErrorException: Undefined index: Email
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 120.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Email', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 120, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(69): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 16:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 16:06:20 --> ErrorException: Undefined index: email
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 120.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: email', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 120, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(69): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 16:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 16:07:19 --> ErrorException: Undefined index: NamaLengkap
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 124.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: NamaLengkap', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 124, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(69): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 16:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-29 16:13:12 --> mysqli_sql_exception: Unknown column 'buku.NamaLengkap' in 'field list' in D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `peminja...', 0)
+#1 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `peminja...')
+#2 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `peminja...')
+#3 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `peminja...', Array, false)
+#4 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\app\Models\ModelPeminjaman.php(73): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\app\Controllers\Petugas.php(63): App\Models\ModelPeminjaman->getPeminjamanWithEmailandNamaLengkap()
+#8 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+#9 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+#10 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-02-29 16:13:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'buku.NamaLengkap' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `peminjam`.*, `user`.`Email`, `buku`.`NamaLengkap`
+FROM `peminjam`
+JOIN `user` ON `user`.`UserID` = `peminjam`.`BukuID`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ModelPeminjaman.php(73): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Petugas.php(63): App\Models\ModelPeminjaman->getPeminjamanWithEmailandNamaLengkap()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 16:13:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'buku.NamaLengkap' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `peminjam`.*, `user`.`Email`, `buku`.`NamaLengkap`
+FROM `peminjam`
+JOIN `user` ON `user`.`UserID` = `peminjam`.`BukuID`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `peminjam`.*, `user`.`Email`, `buku`.`NamaLengkap`
+FROM `peminjam`
+JOIN `user` ON `user`.`UserID` = `peminjam`.`BukuID`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `peminjam`.*, `user`.`Email`, `buku`.`NamaLengkap`
+FROM `peminjam`
+JOIN `user` ON `user`.`UserID` = `peminjam`.`BukuID`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ModelPeminjaman.php(73): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Petugas.php(63): App\Models\ModelPeminjaman->getPeminjamanWithEmailandNamaLengkap()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 16:13:13 --> [Caused by] mysqli_sql_exception: Unknown column 'buku.NamaLengkap' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `peminjam`.*, `user`.`Email`, `buku`.`NamaLengkap`
+FROM `peminjam`
+JOIN `user` ON `user`.`UserID` = `peminjam`.`BukuID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `peminjam`.*, `user`.`Email`, `buku`.`NamaLengkap`
+FROM `peminjam`
+JOIN `user` ON `user`.`UserID` = `peminjam`.`BukuID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `peminjam`.*, `user`.`Email`, `buku`.`NamaLengkap`
+FROM `peminjam`
+JOIN `user` ON `user`.`UserID` = `peminjam`.`BukuID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `peminjam`.*, `user`.`Email`, `buku`.`NamaLengkap`
+FROM `peminjam`
+JOIN `user` ON `user`.`UserID` = `peminjam`.`BukuID`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ModelPeminjaman.php(73): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Petugas.php(63): App\Models\ModelPeminjaman->getPeminjamanWithEmailandNamaLengkap()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 16:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 16:13:36 --> ErrorException: Undefined index: Judul
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 98.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Judul', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 98, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(70): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 16:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 16:18:58 --> ErrorException: Undefined index: Judul
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 98.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Judul', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 98, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(71): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 16:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 16:19:26 --> ErrorException: Undefined index: Email
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 120.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Email', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 120, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(71): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 16:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 16:21:07 --> ErrorException: Undefined index: Email
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 120.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Email', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 120, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(71): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 16:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 16:22:08 --> ErrorException: Undefined index: Email
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 120.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Email', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 120, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(71): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 16:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 16:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 16:24:52 --> ParseError: syntax error, unexpected 'as' (T_AS)
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 100.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 3 APPPATH\Controllers\Petugas.php(71): view('petugas/tabelPeminjaman', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 16:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 16:25:28 --> ErrorException: Undefined index: Denda
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 108.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Denda', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 108, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(71): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 16:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 16:26:17 --> ErrorException: Undefined variable: pembelian
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 103.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pembelian', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 103, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(71): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 16:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 16:31:14 --> ErrorException: Undefined index: hariKeterlambatan
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 103.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: hariKeterlambatan', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 103, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(71): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 16:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 16:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 16:47:12 --> BadMethodCallException: Call to undefined method App\Models\ModelUser::getPeminjamanWithEmailandNamaLengkap
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Petugas.php(64): CodeIgniter\Model->__call('getPeminjamanWithEmailandNamaLengkap', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 16:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 16:48:25 --> ErrorException: Undefined index: Judul
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 101.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Judul', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 101, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(73): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 16:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 16:48:50 --> ErrorException: Undefined index: Judul
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 101.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Judul', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 101, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(73): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 16:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 16:49:02 --> ErrorException: Undefined index: hariKeterlambatan
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 105.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: hariKeterlambatan', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 105, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(73): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 16:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 16:49:43 --> ErrorException: Undefined index: Judul
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 101.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Judul', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 101, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(73): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 16:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 16:51:05 --> ErrorException: Undefined index: Judul
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 101.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Judul', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 101, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(74): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 16:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 16:51:42 --> ErrorException: Undefined variable: judul
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 101.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: judul', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 101, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(74): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 16:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 16:52:33 --> ErrorException: Undefined index: Judul
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 101.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Judul', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 101, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(73): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 17:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 17:04:53 --> ErrorException: Undefined index: PeminjamanID
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 51.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: PeminjamanID', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 51, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(73): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 17:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 17:06:31 --> ErrorException: Undefined index: PeminjamanID
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 51.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: PeminjamanID', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 51, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(72): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 17:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 17:06:55 --> ErrorException: Undefined index: hariKeterlambatan
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 105.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: hariKeterlambatan', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 105, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(73): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 17:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 17:07:43 --> ErrorException: Undefined index: hariKeterlambatan
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 105.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: hariKeterlambatan', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 105, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(73): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 17:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 17:10:04 --> ErrorException: Undefined index: Denda
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 109.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Denda', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 109, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(73): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 17:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 17:10:42 --> ErrorException: Undefined index: PeminjamanID
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 51.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: PeminjamanID', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 51, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(73): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 17:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 17:10:55 --> ErrorException: Undefined index: Judul
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 101.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Judul', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 101, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(73): view('petugas/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 17:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 17:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 17:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 17:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 17:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 17:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 17:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 17:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 17:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 17:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 17:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 17:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 17:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 17:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 17:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 17:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 17:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 23:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 23:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 23:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 23:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 23:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 23:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 23:45:35 --> ErrorException: Undefined property: App\Controllers\Home::$ModelBuku
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$ModelBuku', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Home.php', 94, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->tambahPeminjaman()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 23:47:52 --> ErrorException: Undefined variable: bukuID
+in APPPATH\Controllers\Home.php on line 95.
+ 1 APPPATH\Controllers\Home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: bukuID', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Home.php', 95, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->tambahPeminjaman()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 23:48:37 --> ErrorException: Undefined property: CodeIgniter\Database\MySQLi\Result::$stok
+in APPPATH\Controllers\Home.php on line 97.
+ 1 APPPATH\Controllers\Home.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$stok', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Home.php', 97, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->tambahPeminjaman()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 23:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 23:49:57 --> ErrorException: Undefined property: CodeIgniter\Database\MySQLi\Result::$stok
+in APPPATH\Controllers\Home.php on line 97.
+ 1 APPPATH\Controllers\Home.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$stok', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Home.php', 97, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->tambahPeminjaman()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 23:52:43 --> ErrorException: Undefined variable: total_pinjam
+in APPPATH\Controllers\Home.php on line 99.
+ 1 APPPATH\Controllers\Home.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_pinjam', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Home.php', 99, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->tambahPeminjaman()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 23:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 23:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 23:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 23:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -14,7 +14,7 @@
             </li>
             <?php if (session()->get('Status_login')): ?>
             <li class="nav-item" id="daftar-pinjam">
-              <a class="nav-link active" href="<?= base_url() ?>daftarPinjam">Daftar Peminjaman</a>
+              <a class="nav-link active" href="<?= base_url() ?>daftarPeminjaman">Daftar Peminjaman</a>
             </li>
             <?php endif; ?>
           </ul>
@@ -22,6 +22,10 @@
               <ul class="navbar-nav">
                 <?php if (session()->get('Status_login')): ?>
                     <!-- Jika sudah login, tampilkan nama pengguna dan tombol logout -->
+                    <li class="nav-item">
+                      <a class="nav-link active" href="<?= base_url() ?>daftarKoleksi">
+                      Daftar Koleksi</a>
+                    </li>
                     <li class="nav-item">
                       <a class="nav-link active" href="<?= base_url() ?>">
                         <?= session()->get('Email'); ?>

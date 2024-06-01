@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Register</title>
-	<link rel="stylesheet" type="text/css" href="css/register.css">
+	<link rel="stylesheet" type="text/css" href="<?= base_url() ?>css/register1.css">
     <link rel="shortcut icon" href="assets/images/logo.jpg" />
 </head>
 <body>

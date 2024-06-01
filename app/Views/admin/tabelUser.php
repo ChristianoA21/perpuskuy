@@ -146,7 +146,7 @@
 											                    <td><?= $item['Alamat']; ?></td>
 	                                        <td>
 	                                            <button onclick="showEditForm(<?= $item['UserID']; ?>)" class="badge badge-danger">Edit</button>
-	                                            <button onclick="hapusBuku(<?= $item['UserID'] ?>)" class="badge badge-danger">Hapus</button>
+	                                            <button onclick="hapusUser(<?= $item['UserID'] ?>)" class="badge badge-danger">Hapus</button>
 	                                        </td>
 	                                    </tr>
 	                                    <?php endforeach; ?>
@@ -193,7 +193,13 @@
   </script>
 
   <!-- Hapus Data -->
-  <script type="text/javascript" src="<?= base_url() ?>js/hapusUser.js"></script>
+  <script type="text/javascript">
+  	function hapusUser(UserID) {
+        if (confirm('Apakah Anda yakin ingin menghapus akun ini?')) {
+            window.location.href = `<?= site_url('admin/hapusUser/') ?>${UserID}`;
+        }
+    }
+  </script>
  <!-- plugins:js -->
   <script src="<?= base_url() ?>assets/vendors/js/vendor.bundle.base.js"></script>
   <script src="<?= base_url() ?>assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>

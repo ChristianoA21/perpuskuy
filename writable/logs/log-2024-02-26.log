@@ -1,0 +1,614 @@
+INFO - 2024-02-26 00:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 00:52:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 00:52:50 --> Error: Class 'App\Controllers\ModelKoleksi' not found
+in APPPATH\Controllers\Home.php on line 135.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->koleksiBuku()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 00:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 00:53:53 --> ErrorException: Undefined variable: peminjaman
+in APPPATH\Views\partials\alertPengembalianBuku.php on line 2.
+ 1 APPPATH\Views\partials\alertPengembalianBuku.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: peminjaman', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\partials\\alertPengembalianBuku.php', 2, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\partials\\alertPengembalianBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/alertPengembalianBuku', [], true)
+ 5 APPPATH\Views\daftarKoleksi.php(13): view('partials/alertPengembalianBuku')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarKoleksi.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarKoleksi', [], true)
+ 9 APPPATH\Controllers\Home.php(139): view('daftarKoleksi', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->koleksiBuku()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 00:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 00:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 00:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 01:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 01:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 01:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 01:29:04 --> ErrorException: Undefined variable: username
+in APPPATH\Models\ModelUser.php on line 25.
+ 1 APPPATH\Models\ModelUser.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: username', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Models\\ModelUser.php', 25, [...])
+ 2 APPPATH\Controllers\Home.php(54): App\Models\ModelUser->dapatkan_user('christianoa3231@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 01:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 01:29:40 --> ErrorException: Undefined variable: username
+in APPPATH\Models\ModelUser.php on line 25.
+ 1 APPPATH\Models\ModelUser.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: username', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Models\\ModelUser.php', 25, [...])
+ 2 APPPATH\Controllers\Home.php(133): App\Models\ModelUser->dapatkan_user('christianoa3231@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->koleksiBuku()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 01:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 01:29:44 --> ErrorException: Undefined variable: username
+in APPPATH\Models\ModelUser.php on line 25.
+ 1 APPPATH\Models\ModelUser.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: username', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Models\\ModelUser.php', 25, [...])
+ 2 APPPATH\Controllers\Home.php(54): App\Models\ModelUser->dapatkan_user('christianoa3231@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 01:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 01:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 01:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 01:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 01:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 01:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 01:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 01:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 01:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 01:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 01:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 01:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 01:45:52 --> ErrorException: Undefined variable: username
+in APPPATH\Controllers\Home.php on line 149.
+ 1 APPPATH\Controllers\Home.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: username', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Home.php', 149, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->tambahKoleksi()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 01:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 01:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 06:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 06:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 06:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 06:55:02 --> ErrorException: Undefined variable: username
+in APPPATH\Controllers\Auth\ProsesLogin.php on line 43.
+ 1 APPPATH\Controllers\Auth\ProsesLogin.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: username', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Auth\\ProsesLogin.php', 43, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth\ProsesLogin->proses_login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\ProsesLogin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 06:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 06:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 06:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 06:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 06:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 06:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 06:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 06:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 07:09:02 --> ErrorException: Undefined variable: BukuID
+in APPPATH\Views\daftarBuku.php on line 42.
+ 1 APPPATH\Views\daftarBuku.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: BukuID', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php', 42, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarBuku', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('daftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 07:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 07:10:13 --> ErrorException: Undefined variable: BukuID
+in APPPATH\Views\daftarBuku.php on line 40.
+ 1 APPPATH\Views\daftarBuku.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: BukuID', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php', 40, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarBuku', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('daftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 07:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 07:10:48 --> ErrorException: Undefined variable: Judul
+in APPPATH\Views\daftarBuku.php on line 42.
+ 1 APPPATH\Views\daftarBuku.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Judul', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php', 42, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarBuku', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('daftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 07:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 07:22:53 --> ErrorException: Undefined variable: BukuID
+in APPPATH\Controllers\Home.php on line 158.
+ 1 APPPATH\Controllers\Home.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: BukuID', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Home.php', 158, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->tambahKoleksi()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 07:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 07:32:35 --> TypeError: Return value of App\Controllers\Home::tambahKoleksi() must be of the type string, object returned
+in APPPATH\Controllers\Home.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->tambahKoleksi()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 07:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 07:38:51 --> ParseError: syntax error, unexpected 'BukuID' (T_STRING), expecting ')'
+in APPPATH\Views\daftarKoleksi.php on line 30.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarKoleksi', [], true)
+ 3 APPPATH\Controllers\Home.php(139): view('daftarKoleksi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->koleksiBuku()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 07:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 07:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 11:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 11:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 11:39:01 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-26 11:39:01 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 11:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 11:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 11:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 11:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 11:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 11:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 11:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 11:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 11:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 11:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 11:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 12:07:58 --> ErrorException: Undefined index: BukuID
+in APPPATH\Views\daftarBuku.php on line 44.
+ 1 APPPATH\Views\daftarBuku.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: BukuID', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php', 44, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarBuku', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('daftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 12:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:31:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 12:54:12 --> BadMethodCallException: Call to undefined method App\Models\ModelPeminjaman::tambahStatusPeminjaman
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Home.php(95): CodeIgniter\Model->__call('tambahStatusPeminjaman', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->tambahPeminjaman()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 12:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 12:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 13:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 13:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 13:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 13:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 13:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 13:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 13:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 13:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 13:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 13:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 13:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 13:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 13:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 13:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 13:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 13:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 13:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 19:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 19:13:51 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 19:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 19:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 19:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 19:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 19:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 20:08:02 --> ParseError: syntax error, unexpected ''Judul'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH\Controllers\Home.php on line 204.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-26 20:09:40 --> ParseError: syntax error, unexpected ''Judul'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+in APPPATH\Controllers\Home.php on line 204.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 20:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 20:10:01 --> ErrorException: Undefined index: UserID
+in APPPATH\Views\daftarBuku.php on line 81.
+ 1 APPPATH\Views\daftarBuku.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: UserID', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php', 81, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarBuku', [], true)
+ 5 APPPATH\Controllers\Home.php(60): view('daftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 20:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 20:11:27 --> ErrorException: Undefined variable: semua_ulasan
+in APPPATH\Views\daftarBuku.php on line 168.
+ 1 APPPATH\Views\daftarBuku.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: semua_ulasan', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php', 168, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarBuku', [], true)
+ 5 APPPATH\Controllers\Home.php(60): view('daftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 20:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 20:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 20:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 20:12:42 --> ErrorException: Illegal string offset 'TanggalUlasan'
+in APPPATH\Views\daftarBuku.php on line 104.
+ 1 APPPATH\Views\daftarBuku.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'TanggalUlasan\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php', 104, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarBuku', [], true)
+ 5 APPPATH\Controllers\Home.php(60): view('daftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 20:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 20:15:48 --> ErrorException: Illegal string offset 'TanggalUlasan'
+in APPPATH\Views\daftarBuku.php on line 104.
+ 1 APPPATH\Views\daftarBuku.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'TanggalUlasan\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php', 104, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarBuku', [], true)
+ 5 APPPATH\Controllers\Home.php(60): view('daftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 20:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 20:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 20:16:07 --> ErrorException: Illegal string offset 'TanggalUlasan'
+in APPPATH\Views\daftarBuku.php on line 104.
+ 1 APPPATH\Views\daftarBuku.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'TanggalUlasan\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php', 104, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarBuku', [], true)
+ 5 APPPATH\Controllers\Home.php(60): view('daftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 20:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 20:17:03 --> ErrorException: Illegal string offset 'TanggalUlasan'
+in APPPATH\Views\daftarBuku.php on line 104.
+ 1 APPPATH\Views\daftarBuku.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'TanggalUlasan\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php', 104, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarBuku', [], true)
+ 5 APPPATH\Controllers\Home.php(60): view('daftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 20:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 20:21:30 --> ErrorException: Illegal string offset 'TanggalUlasan'
+in APPPATH\Views\daftarBuku.php on line 104.
+ 1 APPPATH\Views\daftarBuku.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'TanggalUlasan\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php', 104, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarBuku', [], true)
+ 5 APPPATH\Controllers\Home.php(60): view('daftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 20:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 20:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 20:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 20:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 20:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 20:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 20:30:14 --> ErrorException: Undefined variable: bukuID
+in APPPATH\Controllers\Home.php on line 193.
+ 1 APPPATH\Controllers\Home.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: bukuID', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Home.php', 193, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->tambahUlasan()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 20:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 20:31:15 --> ErrorException: Undefined variable: modelUlasan
+in APPPATH\Controllers\Home.php on line 192.
+ 1 APPPATH\Controllers\Home.php(192): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: modelUlasan', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Home.php', 192, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->tambahUlasan()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 20:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 20:31:53 --> ErrorException: Undefined variable: bukuID
+in APPPATH\Controllers\Home.php on line 197.
+ 1 APPPATH\Controllers\Home.php(197): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: bukuID', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Home.php', 197, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->tambahUlasan()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 20:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-26 20:35:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '), '2024-02-26')' at line 1 in D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ul...', 0)
+#1 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ul...')
+#2 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ul...')
+#3 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ul...', Array, false)
+#4 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\app\Models\ModelUlasan.php(15): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\app\Controllers\Home.php(210): App\Models\ModelUlasan->saveUlasan(Array)
+#9 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(941): App\Controllers\Home->tambahUlasan()
+#10 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-26 20:35:28 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '), '2024-02-26')' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ulasanbuku` (`UserID`, `BukuID`, `Ulasan`, `Rating`, `Username`, `Judul`, `TanggalUlasan`) VALUES (:UserID:, :BukuID:, :Ulasan:, :Rating:, :Username:, :Judul:, :TanggalUlasan:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\ModelUlasan.php(15): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\Home.php(210): App\Models\ModelUlasan->saveUlasan([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->tambahUlasan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-26 20:35:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '), '2024-02-26')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ulasanbuku` (`UserID`, `BukuID`, `Ulasan`, `Rating`, `Username`, `Judul`, `TanggalUlasan`) VALUES (\'1\', \'3\', \'bagus banget nih buku\', \'\', \'Christiano\', (), \'2024-02-26\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ulasanbuku` (`UserID`, `BukuID`, `Ulasan`, `Rating`, `Username`, `Judul`, `TanggalUlasan`) VALUES (\'1\', \'3\', \'bagus banget nih buku\', \'\', \'Christiano\', (), \'2024-02-26\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ulasanbuku` (`UserID`, `BukuID`, `Ulasan`, `Rating`, `Username`, `Judul`, `TanggalUlasan`) VALUES (:UserID:, :BukuID:, :Ulasan:, :Rating:, :Username:, :Judul:, :TanggalUlasan:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Models\ModelUlasan.php(15): CodeIgniter\Model->insert([...])
+ 8 APPPATH\Controllers\Home.php(210): App\Models\ModelUlasan->saveUlasan([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->tambahUlasan()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-26 20:35:28 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '), '2024-02-26')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ulasanbuku` (`UserID`, `BukuID`, `Ulasan`, `Rating`, `Username`, `Judul`, `TanggalUlasan`) VALUES (\'1\', \'3\', \'bagus banget nih buku\', \'\', \'Christiano\', (), \'2024-02-26\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ulasanbuku` (`UserID`, `BukuID`, `Ulasan`, `Rating`, `Username`, `Judul`, `TanggalUlasan`) VALUES (\'1\', \'3\', \'bagus banget nih buku\', \'\', \'Christiano\', (), \'2024-02-26\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ulasanbuku` (`UserID`, `BukuID`, `Ulasan`, `Rating`, `Username`, `Judul`, `TanggalUlasan`) VALUES (\'1\', \'3\', \'bagus banget nih buku\', \'\', \'Christiano\', (), \'2024-02-26\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ulasanbuku` (`UserID`, `BukuID`, `Ulasan`, `Rating`, `Username`, `Judul`, `TanggalUlasan`) VALUES (:UserID:, :BukuID:, :Ulasan:, :Rating:, :Username:, :Judul:, :TanggalUlasan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\ModelUlasan.php(15): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Home.php(210): App\Models\ModelUlasan->saveUlasan([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->tambahUlasan()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 20:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 20:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 20:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-26 20:36:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '), '2024-02-26')' at line 1 in D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ul...', 0)
+#1 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ul...')
+#2 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ul...')
+#3 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ul...', Array, false)
+#4 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\app\Models\ModelUlasan.php(15): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\app\Controllers\Home.php(210): App\Models\ModelUlasan->saveUlasan(Array)
+#9 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(941): App\Controllers\Home->tambahUlasan()
+#10 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-26 20:36:44 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '), '2024-02-26')' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ulasanbuku` (`UserID`, `BukuID`, `Ulasan`, `Rating`, `Username`, `Judul`, `TanggalUlasan`) VALUES (:UserID:, :BukuID:, :Ulasan:, :Rating:, :Username:, :Judul:, :TanggalUlasan:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\ModelUlasan.php(15): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\Home.php(210): App\Models\ModelUlasan->saveUlasan([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->tambahUlasan()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-26 20:36:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '), '2024-02-26')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ulasanbuku` (`UserID`, `BukuID`, `Ulasan`, `Rating`, `Username`, `Judul`, `TanggalUlasan`) VALUES (\'1\', \'3\', \'bagus\', \'\', \'Christiano\', (), \'2024-02-26\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ulasanbuku` (`UserID`, `BukuID`, `Ulasan`, `Rating`, `Username`, `Judul`, `TanggalUlasan`) VALUES (\'1\', \'3\', \'bagus\', \'\', \'Christiano\', (), \'2024-02-26\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ulasanbuku` (`UserID`, `BukuID`, `Ulasan`, `Rating`, `Username`, `Judul`, `TanggalUlasan`) VALUES (:UserID:, :BukuID:, :Ulasan:, :Rating:, :Username:, :Judul:, :TanggalUlasan:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Models\ModelUlasan.php(15): CodeIgniter\Model->insert([...])
+ 8 APPPATH\Controllers\Home.php(210): App\Models\ModelUlasan->saveUlasan([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->tambahUlasan()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-26 20:36:45 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '), '2024-02-26')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ulasanbuku` (`UserID`, `BukuID`, `Ulasan`, `Rating`, `Username`, `Judul`, `TanggalUlasan`) VALUES (\'1\', \'3\', \'bagus\', \'\', \'Christiano\', (), \'2024-02-26\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ulasanbuku` (`UserID`, `BukuID`, `Ulasan`, `Rating`, `Username`, `Judul`, `TanggalUlasan`) VALUES (\'1\', \'3\', \'bagus\', \'\', \'Christiano\', (), \'2024-02-26\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ulasanbuku` (`UserID`, `BukuID`, `Ulasan`, `Rating`, `Username`, `Judul`, `TanggalUlasan`) VALUES (\'1\', \'3\', \'bagus\', \'\', \'Christiano\', (), \'2024-02-26\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ulasanbuku` (`UserID`, `BukuID`, `Ulasan`, `Rating`, `Username`, `Judul`, `TanggalUlasan`) VALUES (:UserID:, :BukuID:, :Ulasan:, :Rating:, :Username:, :Judul:, :TanggalUlasan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\ModelUlasan.php(15): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\Home.php(210): App\Models\ModelUlasan->saveUlasan([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->tambahUlasan()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 21:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 21:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 21:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 21:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 21:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 21:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 21:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 21:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 21:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 21:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 21:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 21:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 21:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 21:29:51 --> BadMethodCallException: Call to undefined method App\Models\ModelPeminjaman::tambahStatusPeminjaman
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Home.php(98): CodeIgniter\Model->__call('tambahStatusPeminjaman', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->tambahPeminjaman()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-26 21:40:07 --> BadMethodCallException: Call to undefined method App\Models\ModelPeminjaman::tambahStatusPeminjaman
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Home.php(98): CodeIgniter\Model->__call('tambahStatusPeminjaman', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->tambahPeminjaman()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-26 21:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 21:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 21:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 21:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 21:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

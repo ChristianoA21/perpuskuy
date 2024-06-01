@@ -17,6 +17,7 @@
         <ul class="nav flex-column sub-menu">
           <li class="nav-item"> <a class="nav-link" href="<?= base_url() ?>admin/daftarBuku">Book List Table</a></li>
           <li class="nav-item"> <a class="nav-link" href="<?= base_url() ?>admin/kategoriBuku">Book Category Table</a></li>
+          <li class="nav-item"> <a class="nav-link" href="<?= base_url() ?>admin/peminjaman">Borrowing Books Table</a></li>
         </ul>
       </div>
     </li>
@@ -26,11 +27,10 @@
         <span class="menu-title">Users</span>
       </a>
     </li>
-    <li class="nav-item nav-category">help</li>
     <li class="nav-item">
-      <a class="nav-link" href="http://bootstrapdash.com/demo/star-admin2-free/docs/documentation.html">
-        <i class="menu-icon mdi mdi-file-document"></i>
-        <span class="menu-title">Documentation</span>
+      <a class="nav-link" href="<?= base_url() ?>admin/petugas" aria-expanded="false" aria-controls="petugas">
+        <i class="mdi-account mdi mdi-account-group menu-icon"></i>
+        <span class="menu-title">petugas</span>
       </a>
     </li>
   </ul>

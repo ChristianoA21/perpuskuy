@@ -1,0 +1,106 @@
+INFO - 2024-02-22 00:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 00:45:00 --> ErrorException: Undefined property: stdClass::$Password
+in APPPATH\Controllers\Auth\ProsesLogin.php on line 31.
+ 1 APPPATH\Controllers\Auth\ProsesLogin.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$Password', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Auth\\ProsesLogin.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth\ProsesLogin->proses_login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\ProsesLogin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-22 00:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:52:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 00:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-22 01:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-22 02:46:24 --> ErrorException: Illegal string offset 'NamaKategori'
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 134.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'NamaKategori\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 134, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(41): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 02:59:20 --> ErrorException: Illegal string offset 'NamaKategori'
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 80.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'NamaKategori\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 80, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(41): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 03:00:13 --> ErrorException: Illegal string offset 'NamaKategori'
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 134.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'NamaKategori\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 134, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(42): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 03:00:34 --> ErrorException: Undefined index: NamaKategori
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 134.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: NamaKategori', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 134, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(42): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-22 03:00:47 --> ErrorException: Illegal string offset 'NamaKategori'
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 134.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'NamaKategori\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 134, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(42): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,47 @@
+CRITICAL - 2024-02-05 02:53:18 --> ErrorException: Undefined variable: kategori
+in APPPATH\Views\admin\tabelSubkategori.php on line 79.
+ 1 APPPATH\Views\admin\tabelSubkategori.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kategori', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelSubkategori.php', 79, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelSubkategori.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelSubkategori', [], true)
+ 5 APPPATH\Controllers\Admin.php(59): view('admin/tabelSubkategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->subkategori()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 05:39:47 --> ErrorException: Undefined variable: kategori
+in APPPATH\Views\admin\tabelSubkategori.php on line 274.
+ 1 APPPATH\Views\admin\tabelSubkategori.php(274): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kategori', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelSubkategori.php', 274, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelSubkategori.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelSubkategori', [], true)
+ 5 APPPATH\Controllers\Admin.php(63): view('admin/tabelSubkategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->subkategori()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-05 07:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-05 13:40:17 --> ErrorException: Illegal string offset 'BukuID'
+in APPPATH\Views\admin\tabelSubkategori.php on line 268.
+ 1 APPPATH\Views\admin\tabelSubkategori.php(268): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'BukuID\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelSubkategori.php', 268, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelSubkategori.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelSubkategori', [], true)
+ 5 APPPATH\Controllers\Admin.php(63): view('admin/tabelSubkategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->subkategori()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-05 13:43:29 --> ErrorException: Illegal string offset 'BukuID'
+in APPPATH\Views\admin\tabelSubkategori.php on line 268.
+ 1 APPPATH\Views\admin\tabelSubkategori.php(268): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'BukuID\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelSubkategori.php', 268, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelSubkategori.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelSubkategori', [], true)
+ 5 APPPATH\Controllers\Admin.php(63): view('admin/tabelSubkategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->subkategori()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-05 23:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-05 23:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,66 @@
+INFO - 2024-02-25 08:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-25 08:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-25 08:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-25 08:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-25 08:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-25 08:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-25 08:08:05 --> ErrorException: Undefined variable: peminjaman
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 49.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: peminjaman', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 49, [])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(101): view('petugas/tabelPeminjaman')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->pengembalian('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-25 09:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-25 22:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-25 22:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-25 22:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-25 22:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-25 22:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-25 22:51:40 --> ErrorException: Undefined variable: peminjaman
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 49.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: peminjaman', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 49, [])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(104): view('petugas/tabelPeminjaman')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->pengembalian('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-25 22:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-25 22:52:22 --> ErrorException: Undefined variable: pengembalian
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 49.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pengembalian', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 49, [])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(104): view('petugas/tabelPeminjaman')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->pengembalian('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-25 22:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-25 22:53:10 --> ErrorException: Undefined variable: pengembalian
+in APPPATH\Views\petugas\tabelPeminjaman.php on line 49.
+ 1 APPPATH\Views\petugas\tabelPeminjaman.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pengembalian', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php', 49, [])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Petugas.php(104): view('petugas/tabelPeminjaman')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->pengembalian('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-25 23:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-25 23:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-25 23:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-25 23:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-25 23:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-25 23:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-25 23:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-25 23:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

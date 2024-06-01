@@ -18,6 +18,11 @@ class ModelUser extends Model
 		return $builder->insert($data);
 	}
 
+	public function dapatkanUsernameByEmail($email) 
+	{
+		return $this->getWhere(['Email' => $email])->getRow('Username');	
+	}
+
 	public function dapatkan_user($email) {
 		if ($email == false) {
 			return $this->findAll();
@@ -25,6 +30,14 @@ class ModelUser extends Model
 			return $this->getWhere(['email' => $email]);
 		}
 	}
+
+	public function dapatkan_username($username) {
+		if ($username == false) {
+			return $this->findAll();
+		} else {
+			return $this->getWhere(['Username' => $username]);
+		}
+	} 
 
 	public function getUser()
     {

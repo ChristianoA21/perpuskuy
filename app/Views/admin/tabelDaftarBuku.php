@@ -74,6 +74,18 @@
 									<input type="text" class="form-control" name="tahun-terbit" id="tahun-terbit">
 								</div>
 								<div class="mb-3">
+									<label for="nama-kategori" class="form-label">Kategori</label>
+									<select name="nama-kategori" id="nama-kategori">
+										<?php foreach ($kategori as $kategori): ?>
+                     	<option value="<?= $kategori['NamaKategori'] ?>"><?= $kategori['NamaKategori'] ?></option>
+                    <?php endforeach; ?>
+									</select>
+								</div>
+								<div class="mb-3">
+									<label for="sub-kategori" class="form-label">Sub Kategori</label>
+									<input type="text" class="form-control" name="sub-kategori" id="sub-kategori">
+								</div>
+								<div class="mb-3">
 								  <label for="cover-buku" class="form-label">Cover Buku</label>
 								  <input class="form-control" type="file" name="cover-buku" id="cover-buku">
 								</div>
@@ -114,6 +126,18 @@
 								<div class="mb-3">
 									<label for="tahun-terbit" class="form-label">Tahun Terbit</label>
 									<input type="text" class="form-control" name="tahun-terbit" id="tahun-terbit"  value="<?= $item['TahunTerbit']; ?>">
+								</div>
+								<div class="mb-3">
+									<label for="nama-kategori" class="form-label">Kategori</label>
+									<select name="nama-kategori" id="nama-kategori">
+										<?php foreach ($namaKategori as $kategori): ?>
+                     	<option value="<?= $kategori['NamaKategori'] ?>"><?= $kategori['NamaKategori'] ?></option>
+                    <?php endforeach; ?>
+									</select>
+								</div>
+								<div class="mb-3">
+									<label for="sub-kategori" class="form-label">Sub Kategori</label>
+									<input type="text" class="form-control" name="sub-kategori" id="sub-kategori" value="<?= $item['SubKategori']; ?>">
 								</div>
 								<button type="submit" class="btn btn-success">Simpan</button>
                 <button type="button" class="btn btn-secondary" onclick="hideEditForm(<?= $item['BukuID']; ?>)">Batal</button>
@@ -175,6 +199,8 @@
 	                                        <th>Penulis</th>
 	                                        <th>Penerbit</th>
 	                                        <th>Tahun Terbit</th>
+	                                        <th>Kategori</th>
+	                                        <th>Sub Kategori</th>
 	                                        <th>Edit</th>
 	                                    </tr>
 	                                </thead>
@@ -187,6 +213,9 @@
 											                    <td><?= $item['Penulis']; ?></td>
 											                    <td><?= $item['Penerbit']; ?></td>
 											                    <td><?= $item['TahunTerbit']; ?></td>
+											                    <td><?= $item['NamaKategori']; ?></td>
+											                    <td><?= $item['SubKategori']; ?></td>
+											                    <td></td>
 	                                        <td>
 	                                            <button onclick="showEditForm(<?= $item['BukuID']; ?>)" class="badge badge-danger">Edit</button>
 	                                            <button onclick="hapusBuku(<?= $item['BukuID'] ?>)" class="badge badge-danger">Hapus</button>
@@ -239,7 +268,13 @@
   </script>
 
   <!-- Hapus Data -->
-  <script type="text/javascript" src="<?= base_url() ?>js/hapusBuku.js"></script>
+  <script type="text/javascript">
+  	function hapusBuku(BukuID) {
+        if (confirm('Apakah Anda yakin ingin menghapus buku ini?')) {
+            window.location.href = `<?= site_url('admin/hapusBuku/') ?>${BukuID}`;
+        }
+    }
+  </script>
  <!-- plugins:js -->
   <script src="<?= base_url() ?>assets/vendors/js/vendor.bundle.base.js"></script>
   <script src="<?= base_url() ?>assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>

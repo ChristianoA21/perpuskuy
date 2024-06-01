@@ -1,0 +1,663 @@
+INFO - 2024-02-23 12:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 12:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 12:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 12:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-23 12:59:33 --> ErrorException: Undefined variable: user
+in APPPATH\Views\petugas\dashboard.php on line 85.
+ 1 APPPATH\Views\petugas\dashboard.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\dashboard.php', 85, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/dashboard', [], true)
+ 5 APPPATH\Controllers\Petugas.php(33): view('petugas/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 12:59:33 --> ErrorException: Undefined variable: user
+in APPPATH\Views\petugas\dashboard.php on line 85.
+ 1 APPPATH\Views\petugas\dashboard.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\dashboard.php', 85, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/dashboard', [], true)
+ 5 APPPATH\Controllers\Petugas.php(33): view('petugas/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 12:59:34 --> ErrorException: Undefined variable: user
+in APPPATH\Views\petugas\dashboard.php on line 85.
+ 1 APPPATH\Views\petugas\dashboard.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\dashboard.php', 85, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/dashboard', [], true)
+ 5 APPPATH\Controllers\Petugas.php(33): view('petugas/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 12:59:34 --> ErrorException: Undefined variable: user
+in APPPATH\Views\petugas\dashboard.php on line 85.
+ 1 APPPATH\Views\petugas\dashboard.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\dashboard.php', 85, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\petugas\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('petugas/dashboard', [], true)
+ 5 APPPATH\Controllers\Petugas.php(33): view('petugas/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Petugas->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 13:09:08 --> ErrorException: Illegal string offset 'NamaKategori'
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 134.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'NamaKategori\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 134, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(42): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 17:50:35 --> ErrorException: Illegal string offset 'NamaKategori'
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 134.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'NamaKategori\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 134, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(42): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:05:29 --> ErrorException: Invalid argument supplied for foreach()
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 133.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 133, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(43): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-23 18:15:06 --> mysqli_sql_exception: Unknown column 'buku.KategoriID' in 'on clause' in D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `buku`.*...', 0)
+#1 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `buku`.*...')
+#2 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `buku`.*...')
+#3 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `buku`.*...', Array, false)
+#4 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\app\Models\ModelBuku.php(29): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\app\Controllers\Admin.php(40): App\Models\ModelBuku->getBukuWithKategori()
+#8 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+#9 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-02-23 18:15:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'buku.KategoriID' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ModelBuku.php(29): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Admin.php(40): App\Models\ModelBuku->getBukuWithKategori()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:15:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'buku.KategoriID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ModelBuku.php(29): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Admin.php(40): App\Models\ModelBuku->getBukuWithKategori()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:15:08 --> [Caused by] mysqli_sql_exception: Unknown column 'buku.KategoriID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ModelBuku.php(29): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Admin.php(40): App\Models\ModelBuku->getBukuWithKategori()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-23 18:16:56 --> mysqli_sql_exception: Unknown column 'buku.KategoriID' in 'on clause' in D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `buku`.*...', 0)
+#1 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `buku`.*...')
+#2 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `buku`.*...')
+#3 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `buku`.*...', Array, false)
+#4 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\app\Models\ModelBuku.php(29): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\app\Controllers\Admin.php(40): App\Models\ModelBuku->getBukuWithKategori()
+#8 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+#9 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-02-23 18:16:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'buku.KategoriID' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ModelBuku.php(29): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Admin.php(40): App\Models\ModelBuku->getBukuWithKategori()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:16:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'buku.KategoriID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ModelBuku.php(29): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Admin.php(40): App\Models\ModelBuku->getBukuWithKategori()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:16:56 --> [Caused by] mysqli_sql_exception: Unknown column 'buku.KategoriID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ModelBuku.php(29): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Admin.php(40): App\Models\ModelBuku->getBukuWithKategori()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-23 18:17:54 --> mysqli_sql_exception: Unknown column 'buku.KategoriID' in 'on clause' in D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `buku`.*...', 0)
+#1 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `buku`.*...')
+#2 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `buku`.*...')
+#3 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `buku`.*...', Array, false)
+#4 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\app\Models\ModelBuku.php(29): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\app\Controllers\Admin.php(40): App\Models\ModelBuku->getBukuWithKategori()
+#8 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+#9 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-02-23 18:17:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'buku.KategoriID' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ModelBuku.php(29): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Admin.php(40): App\Models\ModelBuku->getBukuWithKategori()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:17:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'buku.KategoriID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ModelBuku.php(29): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Admin.php(40): App\Models\ModelBuku->getBukuWithKategori()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:17:54 --> [Caused by] mysqli_sql_exception: Unknown column 'buku.KategoriID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ModelBuku.php(29): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Admin.php(40): App\Models\ModelBuku->getBukuWithKategori()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-23 18:17:59 --> mysqli_sql_exception: Unknown column 'buku.KategoriID' in 'on clause' in D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `buku`.*...', 0)
+#1 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `buku`.*...')
+#2 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `buku`.*...')
+#3 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `buku`.*...', Array, false)
+#4 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\app\Models\ModelBuku.php(29): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\app\Controllers\Admin.php(40): App\Models\ModelBuku->getBukuWithKategori()
+#8 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+#9 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-02-23 18:17:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'buku.KategoriID' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ModelBuku.php(29): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Admin.php(40): App\Models\ModelBuku->getBukuWithKategori()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:17:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'buku.KategoriID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ModelBuku.php(29): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Admin.php(40): App\Models\ModelBuku->getBukuWithKategori()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:17:59 --> [Caused by] mysqli_sql_exception: Unknown column 'buku.KategoriID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ModelBuku.php(29): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Admin.php(40): App\Models\ModelBuku->getBukuWithKategori()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-23 18:18:48 --> mysqli_sql_exception: Unknown column 'buku.KategoriID' in 'on clause' in D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `buku`.*...', 0)
+#1 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `buku`.*...')
+#2 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `buku`.*...')
+#3 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `buku`.*...', Array, false)
+#4 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\app\Models\ModelBuku.php(29): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\app\Controllers\Admin.php(40): App\Models\ModelBuku->getBukuWithKategori()
+#8 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+#9 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-02-23 18:18:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'buku.KategoriID' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+LEFT JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ModelBuku.php(29): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Admin.php(40): App\Models\ModelBuku->getBukuWithKategori()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:18:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'buku.KategoriID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+LEFT JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+LEFT JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+LEFT JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ModelBuku.php(29): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Admin.php(40): App\Models\ModelBuku->getBukuWithKategori()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:18:49 --> [Caused by] mysqli_sql_exception: Unknown column 'buku.KategoriID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+LEFT JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+LEFT JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+LEFT JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+LEFT JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ModelBuku.php(29): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Admin.php(40): App\Models\ModelBuku->getBukuWithKategori()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:21:47 --> ErrorException: Illegal string offset 'NamaKategori'
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 134.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'NamaKategori\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 134, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(42): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:23:35 --> ErrorException: Illegal string offset 'NamaKategori'
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 134.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'NamaKategori\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 134, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(42): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:25:23 --> ErrorException: Illegal string offset 'NamaKategori'
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 134.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'NamaKategori\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 134, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(42): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:26:09 --> ErrorException: Illegal string offset 'NamaKategori'
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 134.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'NamaKategori\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 134, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(42): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:26:35 --> ErrorException: Illegal string offset 'NamaKategori'
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 134.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'NamaKategori\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 134, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(42): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:29:12 --> ErrorException: Illegal string offset 'NamaKategori'
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 123.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'NamaKategori\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 123, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(42): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:30:38 --> ErrorException: Illegal string offset 'NamaKategori'
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 134.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'NamaKategori\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 134, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(42): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:31:48 --> ErrorException: Invalid argument supplied for foreach()
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 79.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 79, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(42): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:33:29 --> ErrorException: Invalid argument supplied for foreach()
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 79.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 79, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(42): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:34:22 --> ErrorException: Invalid argument supplied for foreach()
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 79.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 79, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(42): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:36:23 --> ErrorException: Illegal string offset 'NamaKategori'
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 134.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'NamaKategori\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 134, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(42): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:38:10 --> ErrorException: Illegal string offset 'NamaKategori'
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 134.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'NamaKategori\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 134, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(42): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:40:04 --> ErrorException: Illegal string offset 'NamaKategori'
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 134.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'NamaKategori\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 134, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(43): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:44:06 --> ErrorException: Illegal string offset 'NamaKategori'
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 134.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'NamaKategori\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 134, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(41): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:47:01 --> ErrorException: Illegal string offset 'NamaKategori'
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 134.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'NamaKategori\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 134, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(41): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:47:50 --> ErrorException: Illegal string offset 'NamaKategori'
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 134.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'NamaKategori\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 134, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(41): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:54:57 --> ErrorException: Illegal string offset 'NamaKategori'
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 135.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'NamaKategori\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 135, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(41): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:55:46 --> ErrorException: Illegal string offset 'NamaKategori'
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 135.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'NamaKategori\'', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 135, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(41): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:57:53 --> ErrorException: Undefined index: SubKategori
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 145.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: SubKategori', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 145, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(42): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:59:50 --> ErrorException: Undefined index: SubKategori
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 145.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: SubKategori', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 145, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(42): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 19:00:55 --> ErrorException: Undefined index: BukuID
+in APPPATH\Views\admin\tabelDaftarBuku.php on line 148.
+ 1 APPPATH\Views\admin\tabelDaftarBuku.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: BukuID', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php', 148, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelDaftarBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelDaftarBuku', [], true)
+ 5 APPPATH\Controllers\Admin.php(42): view('admin/tabelDaftarBuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-23 19:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 19:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 19:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 19:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 19:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 19:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

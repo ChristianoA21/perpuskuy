@@ -1,0 +1,38 @@
+CRITICAL - 2024-02-04 13:22:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/subkategori.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/subkategori.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/subkategori', [], true)
+ 3 APPPATH\Controllers\Admin.php(59): view('admin/subkategori', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->subkategori()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 13:22:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/subkategori.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/subkategori.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/subkategori', [], true)
+ 3 APPPATH\Controllers\Admin.php(59): view('admin/subkategori', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->subkategori()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 13:23:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/tableSubkategori.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/tableSubkategori.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tableSubkategori', [], true)
+ 3 APPPATH\Controllers\Admin.php(59): view('admin/tableSubkategori', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->subkategori()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-04 13:24:31 --> ErrorException: Undefined variable: kategori
+in APPPATH\Views\admin\tabelSubkategori.php on line 79.
+ 1 APPPATH\Views\admin\tabelSubkategori.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kategori', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelSubkategori.php', 79, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelSubkategori.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelSubkategori', [], true)
+ 5 APPPATH\Controllers\Admin.php(59): view('admin/tabelSubkategori', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->subkategori()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

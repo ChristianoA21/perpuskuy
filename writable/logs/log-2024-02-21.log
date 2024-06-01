@@ -1,0 +1,590 @@
+INFO - 2024-02-21 00:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 00:51:31 --> ErrorException: Invalid argument supplied for foreach()
+in APPPATH\Views\daftarPeminjaman.php on line 29.
+ 1 APPPATH\Views\daftarPeminjaman.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarPeminjaman.php', 29, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarPeminjaman', [], true)
+ 5 APPPATH\Controllers\Home.php(72): view('daftarPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 00:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 00:52:24 --> ErrorException: Invalid argument supplied for foreach()
+in APPPATH\Views\daftarPeminjaman.php on line 29.
+ 1 APPPATH\Views\daftarPeminjaman.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarPeminjaman.php', 29, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarPeminjaman', [], true)
+ 5 APPPATH\Controllers\Home.php(72): view('daftarPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 00:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 00:53:35 --> ErrorException: Invalid argument supplied for foreach()
+in APPPATH\Views\daftarPeminjaman.php on line 32.
+ 1 APPPATH\Views\daftarPeminjaman.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarPeminjaman.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarPeminjaman', [], true)
+ 5 APPPATH\Controllers\Home.php(72): view('daftarPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 00:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 00:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 00:57:39 --> ErrorException: Undefined variable: bukuID
+in APPPATH\Controllers\Home.php on line 69.
+ 1 APPPATH\Controllers\Home.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: bukuID', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Home.php', 69, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 01:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 01:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 01:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 01:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 01:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 01:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 01:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 01:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 01:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 01:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 01:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 01:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 01:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 01:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 01:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 01:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 01:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 01:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 01:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 01:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 01:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 07:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 07:51:22 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 07:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 07:56:01 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 07:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 07:58:31 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 07:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 07:58:48 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 08:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 08:01:13 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 08:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 08:06:05 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 08:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 08:08:19 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-21 08:08:35 --> ParseError: syntax error, unexpected '$userID' (T_VARIABLE)
+in APPPATH\Controllers\Home.php on line 60.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 08:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 08:08:41 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 08:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 08:10:48 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 08:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 08:12:08 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 10:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 10:46:31 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 10:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 10:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 10:52:57 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-21 10:52:57 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 10:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 10:55:25 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 10:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 10:56:22 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 10:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 10:57:30 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 11:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 11:00:25 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 11:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 11:02:34 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 11:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 11:02:58 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 11:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 11:04:20 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 11:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 11:05:15 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 11:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 11:09:27 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 11:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 11:11:01 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 11:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 11:11:13 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 11:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 11:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 11:12:13 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Auth\ProsesLogin.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth\ProsesLogin->proses_login()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\ProsesLogin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 11:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 11:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 11:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 11:12:53 --> ErrorException: Undefined index: JudulBuku
+in APPPATH\Views\daftarPeminjaman.php on line 32.
+ 1 APPPATH\Views\daftarPeminjaman.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: JudulBuku', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarPeminjaman.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\daftarPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('daftarPeminjaman', [], true)
+ 5 APPPATH\Controllers\Home.php(62): view('daftarPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->daftarPeminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 11:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 11:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 11:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 11:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 11:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 11:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 11:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 11:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 11:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 11:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 11:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 11:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 11:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 11:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 11:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 11:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 11:27:56 --> ErrorException: Undefined variable: peminjaman
+in APPPATH\Views\partials\alertPengembalianBuku.php on line 2.
+ 1 APPPATH\Views\partials\alertPengembalianBuku.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: peminjaman', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\partials\\alertPengembalianBuku.php', 2, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\partials\\alertPengembalianBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/alertPengembalianBuku', [], true)
+ 5 APPPATH\Views\index.php(15): view('partials/alertPengembalianBuku')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\index.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 9 APPPATH\Controllers\Home.php(21): view('index', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 11:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 11:28:06 --> ErrorException: Undefined variable: peminjaman
+in APPPATH\Views\partials\alertPengembalianBuku.php on line 2.
+ 1 APPPATH\Views\partials\alertPengembalianBuku.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: peminjaman', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\partials\\alertPengembalianBuku.php', 2, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\partials\\alertPengembalianBuku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/alertPengembalianBuku', [], true)
+ 5 APPPATH\Views\index.php(15): view('partials/alertPengembalianBuku')
+ 6 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\index.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 9 APPPATH\Controllers\Home.php(21): view('index', [...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 11:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 11:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-21 11:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-21 11:40:47 --> mysqli_sql_exception: Unknown column 'buku.KategoriID' in 'on clause' in D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `buku`.*...', 0)
+#1 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `buku`.*...')
+#2 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `buku`.*...')
+#3 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `buku`.*...', Array, false)
+#4 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\app\Models\ModelBuku.php(30): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\app\Controllers\Admin.php(35): App\Models\ModelBuku->getBukuWithKategori()
+#8 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+#9 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ujian-kompetensi\perpuskuy\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-02-21 11:40:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'buku.KategoriID' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ModelBuku.php(30): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Admin.php(35): App\Models\ModelBuku->getBukuWithKategori()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-21 11:40:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'buku.KategoriID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ModelBuku.php(30): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Admin.php(35): App\Models\ModelBuku->getBukuWithKategori()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-21 11:40:48 --> [Caused by] mysqli_sql_exception: Unknown column 'buku.KategoriID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `buku`.*, `kategoribuku`.`NamaKategori`
+FROM `buku`
+JOIN `kategoribuku` ON `kategoribuku`.`KategoriID` = `buku`.`KategoriID`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ModelBuku.php(30): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Admin.php(35): App\Models\ModelBuku->getBukuWithKategori()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->daftarBuku()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-21 14:02:49 --> ErrorException: Undefined variable: userID
+in APPPATH\Controllers\Admin.php on line 44.
+ 1 APPPATH\Controllers\Admin.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userID', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Admin.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->peminjaman()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 14:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 14:09:38 --> ErrorException: Undefined variable: user
+in APPPATH\Views\admin\tabelPeminjaman.php on line 151.
+ 1 APPPATH\Views\admin\tabelPeminjaman.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelPeminjaman.php', 151, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Admin.php(49): view('admin/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-21 14:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-21 14:10:32 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Admin.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->peminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-21 14:18:14 --> ErrorException: Undefined variable: userID
+in APPPATH\Controllers\Admin.php on line 50.
+ 1 APPPATH\Controllers\Admin.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userID', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Admin.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->peminjaman()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-21 14:18:48 --> ErrorException: Undefined index: CoverBuku
+in APPPATH\Views\admin\tabelPeminjaman.php on line 103.
+ 1 APPPATH\Views\admin\tabelPeminjaman.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: CoverBuku', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelPeminjaman.php', 103, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Admin.php(52): view('admin/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-21 23:14:13 --> ErrorException: Undefined index: CoverBuku
+in APPPATH\Views\admin\tabelPeminjaman.php on line 103.
+ 1 APPPATH\Views\admin\tabelPeminjaman.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: CoverBuku', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelPeminjaman.php', 103, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Admin.php(52): view('admin/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-21 23:16:18 --> ErrorException: Undefined index: Judul
+in APPPATH\Views\admin\tabelPeminjaman.php on line 103.
+ 1 APPPATH\Views\admin\tabelPeminjaman.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Judul', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelPeminjaman.php', 103, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Admin.php(52): view('admin/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-21 23:16:29 --> ErrorException: Undefined variable: user
+in APPPATH\Views\admin\tabelPeminjaman.php on line 149.
+ 1 APPPATH\Views\admin\tabelPeminjaman.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelPeminjaman.php', 149, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Views\\admin\\tabelPeminjaman.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/tabelPeminjaman', [], true)
+ 5 APPPATH\Controllers\Admin.php(52): view('admin/tabelPeminjaman', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->peminjaman()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-21 23:17:52 --> ErrorException: Undefined variable: userID
+in APPPATH\Controllers\Admin.php on line 50.
+ 1 APPPATH\Controllers\Admin.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userID', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Admin.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->peminjaman()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-21 23:18:39 --> ErrorException: Undefined variable: userID
+in APPPATH\Controllers\Admin.php on line 50.
+ 1 APPPATH\Controllers\Admin.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userID', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Admin.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->peminjaman()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-21 23:20:54 --> ErrorException: Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\system\\Database\\Query.php', 327, [...])
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT `peminjam`.*, `buku`.`Judul`, `buku`.`CoverBuku`
+FROM `peminjam`
+JOIN `buku` ON `buku`.`BukuID` = `peminjam`.`BukuID`
+WHERE `peminjam`.`UserID` = :peminjam.UserID:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `peminjam`.*, `buku`.`Judul`, `buku`.`CoverBuku`
+FROM `peminjam`
+JOIN `buku` ON `buku`.`BukuID` = `peminjam`.`BukuID`
+WHERE `peminjam`.`UserID` = :peminjam.UserID:', [...], false)
+ 7 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH\Models\ModelPeminjaman.php(53): CodeIgniter\Model->__call('get', [])
+ 9 APPPATH\Controllers\Admin.php(52): App\Models\ModelPeminjaman->getPeminjamanWithJudulandCoverBukuByUserID([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->peminjaman()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-21 23:21:32 --> ErrorException: Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\system\\Database\\Query.php', 327, [...])
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT `peminjam`.*, `buku`.`Judul`, `buku`.`CoverBuku`
+FROM `peminjam`
+JOIN `buku` ON `buku`.`BukuID` = `peminjam`.`BukuID`
+WHERE `peminjam`.`UserID` = :peminjam.UserID:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT `peminjam`.*, `buku`.`Judul`, `buku`.`CoverBuku`
+FROM `peminjam`
+JOIN `buku` ON `buku`.`BukuID` = `peminjam`.`BukuID`
+WHERE `peminjam`.`UserID` = :peminjam.UserID:', [...], false)
+ 7 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH\Models\ModelPeminjaman.php(53): CodeIgniter\Model->__call('get', [])
+ 9 APPPATH\Controllers\Admin.php(52): App\Models\ModelPeminjaman->getPeminjamanWithJudulandCoverBukuByUserID([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->peminjaman()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-21 23:23:10 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Admin.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->peminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-21 23:23:44 --> ErrorException: Trying to get property 'UserID' of non-object
+in APPPATH\Controllers\Admin.php on line 49.
+ 1 APPPATH\Controllers\Admin.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'UserID\' of non-object', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Controllers\\Admin.php', 49, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->peminjaman()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-21 23:23:58 --> Error: Call to a member function getRow() on array
+in APPPATH\Controllers\Admin.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->peminjaman()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-21 23:25:28 --> ErrorException: Undefined variable: userID
+in APPPATH\Models\ModelPeminjaman.php on line 61.
+ 1 APPPATH\Models\ModelPeminjaman.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userID', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Models\\ModelPeminjaman.php', 61, [])
+ 2 APPPATH\Controllers\Admin.php(52): App\Models\ModelPeminjaman->getPeminjamanWithJudulandCoverBuku()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->peminjaman()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-21 23:28:05 --> ErrorException: Undefined variable: userID
+in APPPATH\Models\ModelPeminjaman.php on line 61.
+ 1 APPPATH\Models\ModelPeminjaman.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userID', 'D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Models\\ModelPeminjaman.php', 61, [])
+ 2 APPPATH\Controllers\Admin.php(52): App\Models\ModelPeminjaman->getPeminjamanWithJudulandCoverBuku()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->peminjaman()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-21 23:30:55 --> ParseError: syntax error, unexpected '}', expecting ';'
+in APPPATH\Models\ModelPeminjaman.php on line 62.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\ujian-kompetensi\\perpuskuy\\app\\Models\\ModelPeminjaman.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ModelPeminjaman')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ModelPeminjaman')
+ 4 APPPATH\Controllers\Admin.php(51): spl_autoload_call('App\\Models\\ModelPeminjaman')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Admin->peminjaman()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
